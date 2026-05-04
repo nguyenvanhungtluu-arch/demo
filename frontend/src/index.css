@@ -1,0 +1,16 @@
+
+
+:root {
+  --primary-color: #28a745; /* Màu xanh lá đặc trưng */
+  --primary-hover: #218838;
+  --bg-light: #f8f9fa;
+  --text-dark: #333;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}

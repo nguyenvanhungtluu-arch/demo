@@ -1,0 +1,195 @@
+:root {
+  --header-bg: #d9e8d1; /* Màu xanh nhạt của Header/Form */
+  --footer-bg: #74d69b; /* Màu xanh đậm của Footer */
+  --btn-red: #c85a4a;   /* Màu đỏ của nút Đăng nhập */
+  --input-blue: #e3f2fd; /* Màu xanh nhạt của ô Input */
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #ffffff;
+}
+
+.auth-form {
+  background-color: var(--header-bg);
+  padding: 40px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.auth-form h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.auth-form p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: var(--input-blue);
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--btn-red);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-link {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.register-link span {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: var(--footer-bg);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  font-size: 14px;
+}
+
+.footer h4 { margin-bottom: 15px; }
+.footer p { margin: 5px 0; }
+/* Căn giữa toàn bộ form */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* Tạo khoảng cách với Header và Footer */
+  padding: 40px 0;
+}
+
+/* Khung xanh nhạt của form */
+.auth-form {
+  background-color: #d9e8d1; /* Màu xanh nhạt giống Header */
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Định dạng các ô nhập liệu */
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e3f2fd; /* Màu xanh dương rất nhạt như mẫu */
+  box-sizing: border-box; 
+}
+
+/* Nút đăng nhập màu đỏ cam */
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background-color: #c85a4a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
+
+/* LOGIN */
+/* Dàn hàng ngang cho Họ và Tên */
+.name-row {
+  display: flex;
+  gap: 20px;
+}
+
+.name-row .input-group {
+  flex: 1;
+}
+
+/* Đảm bảo form đăng ký có thể dài hơn một chút nếu cần */
+.register-form {
+  max-width: 550px; /* Nới rộng khung một chút cho thoải mái */
+}
+
+/* Tùy chỉnh màu sắc liên kết chuyển trang */
+.register-link a {
+  text-decoration: none;
+}
+
+.register-link span {
+  color: #c85a4a; /* Màu đỏ cam giống nút bấm */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.auth-page-wrapper {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;     /* Căn giữa theo chiều dọc */
+  min-height: 80vh;        /* Đảm bảo chiều cao đủ lớn để thấy sự căn giữa */
+  background-color: #ffffff;
+  padding: 40px 0;
+}
